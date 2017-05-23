@@ -1,0 +1,28 @@
+@import "common";
+
+#qualification-container {
+  padding: 100px 0;
+  .qual-outer-container {
+    display: flex;
+    justify-content: space-between;
+    .qual-box {
+      width: calc(50% - 8px);
+      height: 500px;
+      background-color: $base;
+      box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15);
+      display: flex;
+      justify-content: space-around;
+      padding: 3%;
+      li {
+        font-size: 1.05em;
+        margin: 6px 0;
+      }
+    }
+    .qual-left{
+      //background-color: #9FA8DA;
+    }
+    .qual-right{
+      //background-color: #81D4FA;
+    }
+  }
+}

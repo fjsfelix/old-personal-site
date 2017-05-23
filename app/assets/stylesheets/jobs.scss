@@ -1,0 +1,97 @@
+@import "common";
+
+#jobs-section {
+  padding: 100px 0;
+  .job-container {
+    display: flex;
+    align-items: stretch;
+
+    .job-left {
+      padding-right: 40px;
+      background-color: $base;
+      //text-align: right;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .company-img {
+        //width: 230px;
+        width: 52%;
+        display: inline-block;
+      }
+    }
+    .job-right {
+      position: relative;
+      .circle {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border: 2px solid $dark;
+        background-color: white;
+        border-radius: 100%;
+        left: -8px;
+        top: calc(50% - 7px);
+      }
+      padding: 50px 40px;
+      border-left: 2px solid $dark;
+      width: 50%;
+      .job-time {
+        font-size: 0.8em;
+        margin: 0;
+        color: $darker-blue;
+      }
+      .job-title {
+        font-size: 1.2em;
+        margin: 0;
+        font-family: $Montserrat;
+      }
+      .job-company {
+        font-size: 1.8em;
+        margin: 5px 0 2px 0;
+        font-family: $Montserrat;
+
+      }
+    }
+  }
+}
+
+
+@media (max-width: 760px) {
+  #jobs-section {
+    .job-container {
+      .job-left {
+        .company-img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  #jobs-section {
+    padding: 60px 0;
+    .job-container {
+      .job-left {
+        padding-right: 20px;
+        .company-img {
+          width: 90%;
+        }
+      }
+      .job-right {
+        padding-left: 20px;
+        padding-right: 0;
+        .job-time {
+          font-size: 0.7em;
+        }
+        .job-title {
+          font-size: 1em;
+        }
+        .job-company {
+          font-size: 1.3em;
+
+        }
+      }
+    }
+  }
+}

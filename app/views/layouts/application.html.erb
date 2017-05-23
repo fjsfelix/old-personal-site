@@ -4,6 +4,8 @@
     <title>PersonalSite</title>
     <%= csrf_meta_tags %>
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400|Montserrat:300,400|Amatic+SC' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application' %>
@@ -11,5 +13,6 @@
 
   <body>
     <%= yield %>
+    <%= javascript_pack_tag 'app' %>
   </body>
 </html>

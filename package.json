@@ -24,6 +24,8 @@
     "rails-erb-loader": "^5.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-scroll": "^1.5.2",
+    "react-sticky": "^6.0.1",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
     "webpack": "^2.5.1",

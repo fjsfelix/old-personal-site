@@ -1,0 +1,132 @@
+@import "font-awesome";
+@import "common";
+@import "hero";
+@import "about";
+@import "qualification";
+@import "nav";
+@import "projects";
+@import "jobs";
+
+body {
+  font-family: $OpenSans;
+  color: $dark;
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.section-title {
+  font-family: $Montserrat;
+  font-size: 2.2em;
+  border: 4px solid $dark;
+  padding: 6px 14px;
+  display: inline-block;
+  margin: 0 0 80px 0;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+#links {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  align-items: center;
+  z-index: 101;
+  background-color: $dark;
+  .side-link {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+    background-color: $dark;
+    color: white;
+    &:hover {
+      background-color: $grey;
+      color: $dark;
+    }
+  }
+  .side-menu {
+    display: none;
+    cursor: pointer;
+  }
+  #links-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+#overall {
+  width: calc(100% - 50px);
+  margin-left: 50px;
+}
+
+//@media (max-width: 1200px) {
+//  #overall {
+//    width: calc(100% - 50px);
+//    margin-left: 50px;
+//  }
+//}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 92%;
+    max-width: 860px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 94%;
+  }
+  #overall {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+  #links {
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    .side-menu {
+      display: flex;
+
+    }
+    #links-container {
+      display: flex;
+      flex-direction: row;
+
+    }
+  }
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 60px;
+  }
+}
+
