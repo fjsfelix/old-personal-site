@@ -29,7 +29,7 @@ const Jobs = () => {
             job="Agile Test Engineering"
             img="pivotal.png"/>
           <JobItems
-            time="September 2013 – Present | 2B Term"
+            time="September 2013 – Present | 3A Term"
             company="University of Waterloo"
             job="Engineering Student"
             img="waterloo.png"/>
