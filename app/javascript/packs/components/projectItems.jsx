@@ -12,9 +12,11 @@ const ProjectItems = (props) => {
       <a href={props.link} target="_blank">
         <div className="img-container">
           <img src={props.image} className="project-img"/>
-          <div className="overlay">
-            <i className="fa fa-external-link"></i><span>GO</span>
-          </div>
+          { props.linkOut === true &&
+            <div className="overlay">
+              <i className="fa fa-external-link"></i><span>GO</span>
+            </div>
+          }
         </div>
       </a>
       <div className="project-info">
