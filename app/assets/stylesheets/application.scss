@@ -6,6 +6,7 @@
 @import "nav";
 @import "projects";
 @import "jobs";
+@import "contact";
 
 body {
   font-family: $OpenSans;
@@ -58,6 +59,9 @@ a {
   z-index: 101;
   background-color: $dark;
   .side-link {
+    position: relative;
+    display: inline-block;
+    z-index: 102;
     width: 50px;
     height: 50px;
     display: flex;
@@ -66,8 +70,9 @@ a {
     justify-content: center;
     background-color: $dark;
     color: white;
+    transition: background-color 0.3s;
     &:hover {
-      background-color: $grey;
+      background-color: $red;
       color: $dark;
     }
   }
@@ -80,6 +85,16 @@ a {
     flex-direction: column;
 
   }
+  .menu {
+    position: fixed;
+    top: -100vh;
+    overflow: hidden;
+    z-index: 99;
+    transition: top 0.3s;
+    &.hidden {
+      top: -100vh;
+    }
+  }
 }
 
 #overall {
@@ -87,12 +102,6 @@ a {
   margin-left: 50px;
 }
 
-//@media (max-width: 1200px) {
-//  #overall {
-//    width: calc(100% - 50px);
-//    margin-left: 50px;
-//  }
-//}
 
 @media (max-width: 1080px) {
   .container {
@@ -121,7 +130,39 @@ a {
     #links-container {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .sideMenu-container {
+      z-index: 103;
+      background-color: $dark;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .menu {
+      display: flex;
+      width: 100%;
+      height: calc(100vh - 50px);
 
+      top: 50px;
+      left: 0;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.7em;
+
+      font-family: $Montserrat;
+      &.hidden {
+        top: -100vh;
+      }
+      li {
+        margin: 15px 0;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+          color: $red;
+        }
+      }
     }
   }
   .section-title {

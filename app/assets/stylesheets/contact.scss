@@ -1,0 +1,39 @@
+@import "common";
+
+#contact-section {
+  .links-container {
+    padding: 100px 0;
+    border-top: 2px solid $dark;
+  }
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    .contact-link {
+      font-size: 1em;
+      color: $dark;
+      margin: 10px;
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+  footer {
+    padding: 20px 0;
+    font-family: $Montserrat;
+    background: $base;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 540px) {
+  #contact-section {
+    .links-container {
+      padding: 60px 0;
+    }
+    .contact-container {
+      .contact-link {
+        width: 100%;
+      }
+    }
+  }
+}

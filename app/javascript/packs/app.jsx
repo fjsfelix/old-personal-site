@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 import Hero from './components/hero';
 import About from './components/about';
@@ -8,6 +8,8 @@ import Nav from './components/nav';
 import Projects from './components/projects';
 import Jobs from './components/jobs';
 import Links from './components/links';
+import Contact from './components/contact'
+
 
 class App extends React.Component {
   constructor(props) {
@@ -22,9 +24,9 @@ class App extends React.Component {
         <Hero/>
         <Nav/>
         <About/>
-        {/*<Qualification/>*/}
         <Projects/>
         <Jobs/>
+        <Contact/>
       </div>
 
     );
