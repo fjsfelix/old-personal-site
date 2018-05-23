@@ -9,12 +9,20 @@ const Projects = () => {
   var marvelTags = ["Game", "Ruby on Rails", "AngularJS"];
   var millionTags = ["Ruby on Rails", "AngularJS"];
   var personalTags = ["Ruby on Rails", "React"];
+  var windowedTags = ["Electron"];
  return (
   <Element name="projects">
     <section id="projects-section">
       <div className="container">
         <h2 className="section-title">Projects</h2>
         <div className="project-container">
+          <ProjectItems
+            image="windowed.png"
+            name="Windowed"
+            link="http://windowed.io"
+            description='Electron application that allows users to upload to photos to Instagram directly from their desktop with 40,000+ Downloads'
+            linkOut={true}
+            tags={windowedTags}/>
           <ProjectItems
             image="death.png"
             name="Death Timeline V3.0"
@@ -36,13 +44,6 @@ const Projects = () => {
             description='Fan site based on the web show "Million Dollars But" where users can answer and submit quetions'
             linkOut={true}
             tags={millionTags}/>
-          <ProjectItems
-            image="personal.png"
-            name="Current Personal Site"
-            description="My current personal resume and portfolio website"
-            link=""
-            linkOut={false}
-            tags={personalTags}/>
         </div>
       </div>
     </section>

@@ -9,6 +9,11 @@ const Jobs = () => {
         <div className="container">
           <h2 className="section-title">Work & Education</h2>
           <JobItems
+            time="September – December 2017 | 4 months"
+            company="American Express"
+            job="Software Engineer"
+            img="amex.png"/>
+          <JobItems
             time="January – May 2017 | 4 months"
             company="TextNow"
             job="Full-stack Web Developer"

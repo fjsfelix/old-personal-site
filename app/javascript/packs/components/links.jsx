@@ -37,9 +37,9 @@ class Links extends React.Component {
                                                                                            aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/felixsunlink" className="side-link" target="_blank"><i
               className="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/_felixsun/" className="side-link" target="_blank"><i
+            <a href="https://www.instagram.com/felixsunphoto/" className="side-link" target="_blank"><i
               className="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="felix_resume_web.pdf" className="side-link" target="_blank"><i className="fa fa-file-pdf-o"
+            <a href="felix-resume.pdf" className="side-link" target="_blank"><i className="fa fa-file-pdf-o"
                                                                                     aria-hidden="true"></i></a>
           </div>
         </div>

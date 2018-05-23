@@ -21,21 +21,21 @@ const About = () => {
             <ul className="about-list">
               <li className="about-list-item">
                 <h4>Term</h4>
-                <h5>3A</h5>
+                <h5>4A</h5>
               </li>
               <li className="about-list-item">
                 <h4>Co-op Terms</h4>
-                <h5>4</h5>
+                <h5>5</h5>
               </li>
             </ul>
             <ul className="about-list">
               <li className="about-list-item">
                 <h4>Web Developer</h4>
-                <h5>3.5+ years</h5>
+                <h5>4+ years</h5>
               </li>
               <li className="about-list-item">
                 <h4>Last Co-op</h4>
-                <h5>Web Developer <br/> at TextNow</h5>
+                <h5>Software Engineer <br/> at AMEX</h5>
               </li>
             </ul>
           </div>
