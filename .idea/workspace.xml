@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760aaede-bb07-4470-9e9f-e4c6d68d27d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/bg.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -55,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/hero.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -329,12 +326,12 @@
       <workItem from="1497297815747" duration="40000" />
       <workItem from="1527087559748" duration="1824000" />
       <workItem from="1527128266074" duration="104000" />
-      <workItem from="1527480721955" duration="6188000" />
+      <workItem from="1527480721955" duration="6349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60303000" />
+    <option name="totallyTimeSpent" value="60464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1916" height="1057" extended-state="0" />
@@ -706,7 +703,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/hero.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
