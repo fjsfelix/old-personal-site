@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 1000px) {
   #contact-section {
     .links-container {
       padding: 60px 0;
@@ -38,6 +38,7 @@
     .contact-container {
       .contact-link {
         width: 100%;
+        font-size: 1.2em;
       }
     }
   }

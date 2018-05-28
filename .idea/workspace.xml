@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="760aaede-bb07-4470-9e9f-e4c6d68d27d9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/jobs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jobs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/components/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/components/about.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/components/contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/components/contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/components/hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/components/hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/components/jobs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/components/jobs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/components/projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/components/projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -101,10 +87,10 @@
       <file leaf-file-name="contact.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="659">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
-                <marker date="1527485574154" expanded="true" signature="169:198" ph="..." />
+                <marker date="1527485857324" expanded="true" signature="169:198" ph="..." />
               </folding>
             </state>
           </provider>
@@ -340,12 +326,12 @@
       <workItem from="1497297815747" duration="40000" />
       <workItem from="1527087559748" duration="1824000" />
       <workItem from="1527128266074" duration="104000" />
-      <workItem from="1527480721955" duration="4785000" />
+      <workItem from="1527480721955" duration="4933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58900000" />
+    <option name="totallyTimeSpent" value="59048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1916" height="1057" extended-state="0" />
@@ -662,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -711,12 +690,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="659">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
-            <marker date="1527485574154" expanded="true" signature="169:198" ph="..." />
+            <marker date="1527485857324" expanded="true" signature="169:198" ph="..." />
           </folding>
         </state>
       </provider>
