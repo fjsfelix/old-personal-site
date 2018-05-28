@@ -6,7 +6,7 @@
 .bg-photo {
   position: fixed;
   top: 0;
-  background: url(../../../public/bg.jpg) no-repeat center center fixed;
+  background: url('bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,7 +54,7 @@
 @media (max-width: 850px) {
   #hero-section {
     height: 70vh;
-    background: linear-gradient( to top, rgba(47,54,64, 1), rgba(72,126,176,1));
+    background: linear-gradient( to top, rgba(47,54,64, 0.95), rgba(72,126,176,0.68));
     .hero-title {
       font-size: 6em;
       text-align: center;

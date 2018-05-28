@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
 
       <div id="overall">
-        <img src="bg.jpg" className="bg-photo"/>
+        <div src="bg.jpg" className="bg-photo"></div>
         <Links/>
         <Hero/>
         <About/>
