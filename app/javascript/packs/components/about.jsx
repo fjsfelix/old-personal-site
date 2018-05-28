@@ -6,7 +6,7 @@ const About = () => {
     <Element name="about">
       <section id="about-section">
         <div className="container">
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title">About  Me</h2>
           <div id="about-list-container">
             <ul className="about-list">
               <li className="about-list-item">

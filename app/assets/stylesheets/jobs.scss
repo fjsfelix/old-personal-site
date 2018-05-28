@@ -2,13 +2,18 @@
 
 #jobs-section {
   padding: 100px 0;
+  background-color: white;
+  .all-jobs {
+    //box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15);
+  }
   .job-container {
     display: flex;
     align-items: stretch;
 
+
     .job-left {
       padding-right: 40px;
-      background-color: $base;
+      //background-color: $base;
       //text-align: right;
       width: 50%;
       display: flex;

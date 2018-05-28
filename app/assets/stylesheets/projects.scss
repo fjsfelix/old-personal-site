@@ -1,10 +1,12 @@
 @import "common";
 
 #projects-section {
+  background: linear-gradient( to top , $base, white);
+  background-color: white;
   .container {
     padding: 100px 0 40px 0;
-    border-top: 2px solid $dark;
-    border-bottom: 2px solid $dark;
+    //border-top: 2px solid $dark;
+    //border-bottom: 2px solid $dark;
   }
   .project-container {
     display: flex;
@@ -36,7 +38,7 @@
         color: white;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(72,126,176, 0.8);
         transition: opacity 0.3s;
         opacity: 0;
         z-index: 100;

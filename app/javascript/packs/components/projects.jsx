@@ -14,7 +14,7 @@ const Projects = () => {
   <Element name="projects">
     <section id="projects-section">
       <div className="container">
-        <h2 className="section-title">Projects</h2>
+        <h2 className="section-title">Personal <br/>Projects</h2>
         <div className="project-container">
           <ProjectItems
             image="windowed.png"
@@ -39,7 +39,7 @@ const Projects = () => {
             tags={marvelTags}/>
           <ProjectItems
             image="million.png"
-            name="Marvel or DC"
+            name="Million Dollars But"
             link="https://milliondollarsbut.herokuapp.com/"
             description='Fan site based on the web show "Million Dollars But" where users can answer and submit quetions'
             linkOut={true}
